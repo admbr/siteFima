@@ -36,7 +36,7 @@ export function Home() {
             m-10
             ">
             <p>
-              Homeiii
+              Home
             </p>
           </div>
         </div>
