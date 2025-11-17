@@ -10,7 +10,6 @@ export function NavigationBar (){
       justify-between 
       items-center
       w-full
-      h-18
       ">
       <div className="
         py-2
@@ -19,7 +18,10 @@ export function NavigationBar (){
         text-4xl
         ">
         <Link to="/">
-          FiMa
+          <img src="./src/images/FiMaInvertidoCropped.png" 
+            alt="CamelFiMa" 
+            className="h-20 w-40"
+          />
         </Link>
       </div>
       <div className =" 
