@@ -11,7 +11,7 @@ export function Home() {
       <div className="
         absolute 
         inset-0 
-        bg-[url('./components/penroseTiling.png')]
+        bg-[url('./images/penroseTiling.png')]
         bg-center
         ">
       </div>
