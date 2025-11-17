@@ -12,15 +12,15 @@ export function NavigationBar (){
       w-full
       ">
       <div className="
-        py-2
+        py-4
         px-6
         text-pretoFima
         text-4xl
         ">
         <Link to="/">
-          <img src="./src/images/FiMaInvertidoCropped.png" 
+          <img src="./src/images/FiMaInvertidoInLineLogo.png" 
             alt="CamelFiMa" 
-            className="h-20 w-40"
+            className="h-10 w-50"
           />
         </Link>
       </div>
