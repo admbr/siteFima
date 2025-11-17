@@ -29,15 +29,13 @@ export function Home() {
           h-full
           shadow-2xl/50
           ">
-          <NavigationBar/>
+          <NavigationBar isHome= {true}/>
           <div className="
             flex 
             justify-center 
             m-10
             ">
-            <p>
-              Home
-            </p>
+            <img src="./src/images/FiMa_invertido.png" alt="FiMaInvertido"/>
           </div>
         </div>
       </div>

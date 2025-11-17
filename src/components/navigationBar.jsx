@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export function NavigationBar (){
+export function NavigationBar ({isHome}){
 
 
   return (
@@ -17,12 +17,15 @@ export function NavigationBar (){
         text-pretoFima
         text-4xl
         ">
-        <Link to="/">
-          <img src="./src/images/FiMaInvertidoInLineLogo.png" 
-            alt="CamelFiMa" 
-            className="h-10 w-50"
-          />
-        </Link>
+        {!isHome ? (
+          <Link to="/">
+            <img src="./src/images/FiMaInvertidoInLineLogo.png" 
+              alt="CamelFiMa" 
+              className="h-10 w-50"
+            />
+          </Link>
+        ): <div className="h-10">
+        </div>}
       </div>
       <div className =" 
         flex
