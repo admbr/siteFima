@@ -4,12 +4,12 @@ export function Home() {
   return (
     <div className="
       relative 
-      h-screen 
+      h-screen
       w-screen
       bg-azulFima
       ">
       <div className="
-        absolute 
+        absolute
         inset-0 
         bg-[url('./images/penroseTiling.png')]
         bg-center
@@ -28,6 +28,9 @@ export function Home() {
           w-200
           h-full
           shadow-2xl/50
+          flex 
+          flex-col
+          items-center
           ">
           <NavigationBar isHome= {true}/>
           <div className="
@@ -36,6 +39,18 @@ export function Home() {
             m-10
             ">
             <img src="./src/images/FiMa_invertido.png" alt="FiMaInvertido"/>
+          </div>
+          <div className=" 
+            mt-10
+            ">
+            <img 
+              className = " 
+              h-60
+              w-100
+              hover:inset-shadow-2xs
+              "
+              src="/src/images/testImage.jpg"
+              alt="testImage"/>
           </div>
         </div>
       </div>
