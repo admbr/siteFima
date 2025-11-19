@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
-@theme {  
+@theme {
   --color-azulFima: oklch(0.4063 0.0761 236.45);
   --color-brancoFima: oklch(0.98 0.005 203.47);
   --color-pretoFima: oklch(0.115 0.015 203.47);
-  }
+}
+
+
+:root {
+  background-color: var(--color-azulFima);
+  background-image: url("./images/penroseTiling.png");
+  background-attachment: fixed;
+  background-size: cover;
+}

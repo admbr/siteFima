@@ -2,19 +2,7 @@ import { NavigationBar } from "../components/navigationBar.jsx";
 
 export function Home() {
   return (
-    <div className="
-      relative 
-      h-screen
-      w-screen
-      bg-azulFima
-      ">
-      <div className="
-        absolute
-        inset-0 
-        bg-[url('./images/penroseTiling.png')]
-        bg-center
-        ">
-      </div>
+    <>
       <div className="
         absolute 
         inset-0 
@@ -54,6 +42,6 @@ export function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
