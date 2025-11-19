@@ -2,19 +2,6 @@ import { NavigationBar } from "../components/navigationBar.jsx";
 
 export function Sobre() {
   return (
-    <div className="
-      relative 
-      h-screen 
-      w-screen
-      bg-azulFima
-      ">
-      <div className="
-        absolute 
-        inset-0 
-        bg-[url('./images/penroseTiling.png')]
-        bg-center
-        ">
-      </div>
       <div className="
         absolute 
         inset-0 
@@ -40,7 +27,6 @@ export function Sobre() {
             </p>
           </div>
         </div>
-      </div>
     </div>
   )
 }
