@@ -25,40 +25,14 @@ export function Home() {
           ">
           <img src="./src/images/FiMa_invertido.png" alt="FiMaInvertido"/>
         </div>
-        <ArticlePopup>
-          <div className=" 
-            h-50 
-            w-64
-            bg-[url('/unconvergingGaussians.png')]
-            bg-cover 
-            bg-center 
-            "/>
-          <div className=" 
-            border 
-            h-full
-            grow
-            ">
-            
-          </div>
-        </ArticlePopup>
-        <ArticlePopup>
-          <div className=" 
-            h-50 
-            w-64
-            bg-[url('/unconvergingGaussians.png')]
-            bg-cover 
-            bg-center 
-            "/>
-        </ArticlePopup>
-        <ArticlePopup>
-          <div className=" 
-            h-50 
-            w-64
-            bg-[url('/unconvergingGaussians.png')]
-            bg-center 
-            group-hover:bg-[length:105%]
-            "/>
-        </ArticlePopup>
+        <ArticlePopup
+          imageurl = '/unconvergingGaussians.png'
+          author = "Bruno Barros"
+          title = "Introdução à Teoria de Distribuições"
+          subject = "Análise"
+          date = "11/20/2025"
+          synopsis = "Teoria das distribuições é um assunto de extremo interessante tanto para quem estuda EDP's quanto para quem estuda QFT."
+        />
       </div>
     </div>
   )
