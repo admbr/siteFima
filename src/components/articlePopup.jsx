@@ -7,6 +7,7 @@ export function ArticlePopup ({ imageurl, subject, title, author, date, synopsis
       hover:underline
       hover:underline-offset-3
       m-2
+      w-xl
       ">
       <div className =" 
         w-xl 
@@ -14,7 +15,6 @@ export function ArticlePopup ({ imageurl, subject, title, author, date, synopsis
         group
         bg-brancoFima
         my-10
-        mx-30
         p-6
         z-10
         transition
