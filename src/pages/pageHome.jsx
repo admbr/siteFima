@@ -1,13 +1,11 @@
 import { NavigationBar } from "../components/navigationBar.jsx";
+import { ArticlePopup } from "../components/articlePopup.jsx";
 
 export function Home() {
   return (
     <div className="
-      absolute 
-      inset-0 
       flex 
       justify-center 
-      z-10
       ">
       <div className="
         bg-brancoFima 
@@ -27,18 +25,40 @@ export function Home() {
           ">
           <img src="./src/images/FiMa_invertido.png" alt="FiMaInvertido"/>
         </div>
-        <div className=" 
-          mt-10
-          ">
-          <img 
-            className = " 
-            h-60
-            w-100
-            hover:inset-shadow-2xs
-            "
-            src="/src/images/testImage.jpg"
-            alt="testImage"/>
-        </div>
+        <ArticlePopup>
+          <div className=" 
+            h-50 
+            w-64
+            bg-[url('/unconvergingGaussians.png')]
+            bg-cover 
+            bg-center 
+            "/>
+          <div className=" 
+            border 
+            h-full
+            grow
+            ">
+            
+          </div>
+        </ArticlePopup>
+        <ArticlePopup>
+          <div className=" 
+            h-50 
+            w-64
+            bg-[url('/unconvergingGaussians.png')]
+            bg-cover 
+            bg-center 
+            "/>
+        </ArticlePopup>
+        <ArticlePopup>
+          <div className=" 
+            h-50 
+            w-64
+            bg-[url('/unconvergingGaussians.png')]
+            bg-center 
+            group-hover:bg-[length:105%]
+            "/>
+        </ArticlePopup>
       </div>
     </div>
   )
