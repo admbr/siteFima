@@ -1,4 +1,5 @@
 import { NavigationBar } from "../components/navigationBar.jsx";
+import { DivisionBar } from "../components/divisionBar.jsx";
 import { ArticlePopup } from "../components/articlePopup.jsx";
 
 export function Home() {
@@ -25,6 +26,19 @@ export function Home() {
           ">
           <img src="./src/images/FiMa_invertido.png" alt="FiMaInvertido"/>
         </div>
+        <DivisionBar/>
+        <div class="
+          text-5xl
+          text-cinzaFima
+          flex 
+          justify-center
+          w-full
+        ">
+          <div>
+            Novidades
+          </div>
+        </div>
+        <DivisionBar/>
         <ArticlePopup
           imageurl = '/unconvergingGaussians.png'
           author = "Bruno Barros"
